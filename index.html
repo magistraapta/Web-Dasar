@@ -4,115 +4,100 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web Dicoding</title>
+    <title>Seputar Lombok</title>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/assets/style.css">
 </head>
 <body>
     <header>
+        <div class="heading">
+            <img src="/assets/icon/image 1.png" alt="">
+            <h1>Seputar Lombok</h1>
+        </div>
         <nav>
-            <div class="logo">
-                <img src="/assets/icon/image 1.png" alt="" width="57">
-                <p>Seputar Lombok</p>
-            </div>
             <ul>
-                <li>Tentang</li>
-                <li>Sejarah</li>
-                <li>Budaya</li>
+                <li><a href="#sejarah">Sejarah</a></li>
+                <li><a href="#budaya">Budaya</a></li>
+                <li><a href="#wisata">Wisata</a></li>
             </ul>
         </nav>
     </header>
 
-
-    <article>
-        <div class="tentang">
-            <img src="/assets/images/image 2.png" alt="" width="1220" height="500">
-            <h3>Tentang Lombok</h3>
+    <main>
+        <article data-content="sejarah" class="card ">
+            <h2 id="sejarah">Sejarah</h2>
+            <img src="/assets/images//image 1.png" alt="" width="1200" class="featured-image">
+            <p>
+                Lombok Mirah Sasak Adi adalah salah satu kutipan dari kita Negarakertagama, sebuah kitab yang memuat tentang kekuasaan dan pemerintahaan kerajaan Majapahit.
+                Kata “Lombok” dalam bahasa kawi berarti lurus atau jujur, kata “mirah” berarti permata, kata “sasak” berarti kenyataan, dan kata “adi” artinya yang baik atau yang utama. Maka arti keseluruhannya yaitu kejujuran adalah permata kenyataan yang baik atau utama.
+                <span class="dots">...</span>
+                <span class="more">
+                    Makna filosofi itulah mungkin yang selalu di idamkan leluhur penghuni tanah Lombok yang tercipta sebagai bentuk kearifan lokal yang harus dijaga dan dilestariakan oleh anak cucunya (Sasak children). Dalam kitab – kitab lama, nama Lombok dijumpai disebut Lombok mirah dan Lombok adi .
+                    Beberapa lontar Lombok juga menyebut Lombok dengan gumi selaparang atau selapawis.
+                    <br>
+                    <br>
+                    Asal-usul penduduk pulau Lombok terdapat di beberapa versi, salah satunya yaitu kata “sasak” secara etimilogis menurut Dr. Goris. s. berasal dari kata “sah” yang berarti pergi dan “shaka” yang berarti leluhur.
+                    Berarti pergi ke tanah leluhur orang Sasak (Lombok). Dari etimologis ini di duga leluhur orang Sasak adalah orang Jawa. Terbukti pula dari tulisan Sasak yang oleh penduduk Lombok disebut Jejawan, yakni aksara Jawa yang selengkapnya diresepsi oleh kesusastraan Sasak. 
+                </span>
+            </p>
+            <button onclick="readMore('sejarah')" class="myBtn">Read more</button>
+        </article>
+    
+        <article data-content="budaya" class="card ">
+            <h2 id="budaya">Budaya</h2>
+            <img src="/assets/images/image 3.png" alt="" width="1200" class="featured-image">
+            <p>
+                Pulau lombok juga memiliki beberapa seni budaya, salah satunya adalah Gendang Beleq. Gendang Beleq, merupakan sekelompok penabuh gendang yang terdiri dari belasan personel yang kerap tampil sebagai
+                penghibur pada saat hajatan seperti pengiring tradisi nyongkolan, pelaksaan khitanan dan kegiatan tradisi lain yang ada di Lombok.
+                <span class="dots">...</span>
+                
+                <span class="more">
+                Jauh sebelum gendang beleq di fungsikan sebagai pengiring hiburan tepatnya pada abad ke-14 Masehi atau zaman kedatuan, gendang beleq sering digunakan sebagai penyemangat kepada pasukan perang ketika hendak dan pulang dari perang.
+                <br>
+                <br>
+                Gendang Beleq dimainkan secara berkelompok dengan membentuk semacam orkestra yang terdiri dari dua Gendang Beleq yang disebut mama (laki-laki) dan gendang nina (perempuan) yang berfungsi sebagai pembawa dinamika.
+                </span>
+            </p>
+            <button onclick="readMore('budaya')" class="myBtn">Read more</button>
+        </article>
+    
+        <article data-content="wisata" class="card ">
+            <h2 id="wisata">Wisata</h2>
+            <img src="/assets/images/image 2.png" alt="" width="1200" class="featured-image">
             <p>
                 Pulau Lombok adalah sebuah pulau di kepulauan Nusa Tenggara yang terpisahkan oleh Selat Lombok dari Bali di sebelah barat dan Selat Alas di sebelah timur dari Sumbawa.
-                Pulau ini kurang lebih berbentuk bulat dengan semacam "ekor" di sisi barat daya yang panjangnya kurang lebih 70 km.
-                Luas pulau ini mencapai 5.435 km² menempatkannya pada peringkat 108 dari daftar pulau berdasarkan luasnya di dunia. Kota utama di pulau ini adalah Kota Mataram. ada beberapa hal menarik yang dimiliki oleh lombok berikut ini.
+                Pulau ini kurang lebih berbentuk bulat dengan semacam "ekor" di sisi barat daya yang panjangnya kurang lebih 70 km. Luas pulau ini mencapai 5.435 km² menempatkannya pada peringkat 108 dari daftar pulau berdasarkan luasnya di dunia.
+                Kota utama di pulau ini adalah Kota Mataram. ada beberapa hal menarik yang dimiliki oleh lombok berikut ini.
+                <span class="dots">...</span>
+                <span class="more">
+                    <br>
                 <br>
-                <br>
-                Dijuluki Pulau Seribu Masjid
-                <br>
-                Mayoritas masyarakat Lombok beragama Islam sehingga tak heran Anda akan banyak menemukan masjid di sepanjang jalan.
-                Banyaknya masjid yang berdiri di Lombok, membuatnya disebut dengan Pulau Seribu Masjid.
-                <br>
-                <br>
-                Memiliki Gunung dengan Pemandangan Terindah se-Asia.
-                <br>
-                Gunung Rinjani di Lombok adalah salah satu gunung berapi yang aktif dengan pemandangan terindah se-Asia. Gunung yang memiliki ketinggian 3.726 mdpl ini, memiliki kawah Segara Anak yang berair biru jernih dengan kedalaman mencapai 230 meter. Pantai-pantai di Lombok
+                Lombok terkenal dengan pantai-pantainya yang indah dan memiliki pesona tak kalah indah dari Bali.
+                Kecantikan pantai di Lombok menjadi daya tarik tersendiri bagi wisatawan lokal maupun mancanegara.
+                Beberapa rekomendasi pantai di Lombok yang bisa Anda kunjungi saat berada di pulau lombok antara lain : pantai senggigi, pantai tanjung bango, pantai pink,  selong belanak, pantai mawun, pantai kuta, pantai semeti, pantai tanjung aan dan masih banyak lagi.
+                </span>
             </p>
-        </div>
-
-        <div class="sejarah">
-            <div class="text">
-                <h3>Sejarah</h3>
-                <p>
-                    Asal-usul penduduk pulau Lombok terdapat di beberapa versi, salah satunya yaitu kata “sasak” secara etimilogis menurut Dr. Goris. s. berasal dari kata “sah” yang berarti pergi dan “shaka” yang berarti leluhur.
-                    Berarti pergi ke tanah leluhur orang Sasak (Lombok). Dari etimologis ini di duga leluhur orang Sasak adalah orang Jawa. Terbukti pula dari tulisan Sasak yang oleh penduduk Lombok disebut Jejawan, yakni aksara Jawa yang selengkapnya diresepsi oleh kesusastraan Sasak.
-                    <br>
-                    <br>
-                    Mayoritas etnis sasak beragama Islam, namun demikian dalam kenyataanya pengaruh Islam juga berakulturasi dengan kepercayaan lokal sehingga terbentuk aliran seperti wektu telu, jika dianalogikan seperti abangan di Jawa.
-                    Pada saat ini keberadaan wektu telu sudah kurang mendapat tempat karena tidak sesuai dengan syariat Islam. Pengaruh Islam yang kuat menggeser kekuasaan Hindu di pulau Lombok, hingga saat ini dapat dilihat keberadaannya hanya di bagian barat pulau Lombok saja khususnya di kota Mataram.
-                </p>
-            </div>
-        </div>
-
-        <div class="budaya">
-            <img src="/assets/images/image 3.png" alt="" width="1200" height="584" >
-            <div class="text-budaya">
-                <h3>
-                    Budaya
-                </h3>
-                <p>
-                    Pulau lombok juga memiliki beberapa seni budaya, salah satunya adalah Gendang Beleq. Gendang Beleq, merupakan sekelompok penabuh gendang yang terdiri dari belasan personel yang kerap tampil sebagai penghibur pada saat hajatan seperti pengiring tradisi nyongkolan, pelaksaan khitanan dan kegiatan tradisi lain yang ada di Lombok.
-                    <br>
-                    <br>
-                    Jauh sebelum gendang beleq di fungsikan sebagai pengiring hiburan tepatnya pada abad ke-14 Masehi atau zaman kedatuan, gendang beleq sering digunakan sebagai penyemangat kepada pasukan perang ketika hendak dan pulang dari perang.
-                    <br>
-                    <br>
-                    Gendang Beleq dimainkan secara berkelompok dengan membentuk semacam orkestra yang terdiri dari dua Gendang Beleq yang disebut mama (laki-laki) dan gendang nina (perempuan) yang berfungsi sebagai pembawa dinamika.
-                </p>
-            </div>
-        </div>
-    </article>
+            <button onclick="readMore('wisata')" class="myBtn">Read more</button>
+        </article>
+    </main>
 
     <aside>
-        <img src="/assets/images/profile.png" alt="" width="295">
+        <img src="/assets/images/profile.png" width="200" alt="">
         <p>
             Nama: Muhammad Magistra Apta Paramarta
             <br>
-            Umur: 19 tahun
-            <br>
-            Pekerjaan: Mahasiswa
-            <br>
-            Kampus: Universitas Mataram
-            <br>
+            Umur: 19 tahun <br>
+            Pekerjaan: Mahasiswa <br>
+            Kampus: Universitas Mataram <br>
             Alamat: Kabupaten Lombok Barat, Nusa Tenggara Barat
         </p>
+        
     </aside>
 
     <footer>
-
-        <h3>
-            Find me at:
-        </h3>
-        <div class="icon-1">
-            <a href="https://github.com/magistraapta"><img src="/assets/icon/github.png" alt="" width="33" height="33"></a>
-        </div>
-        <div class="icon-2">
-            <a href="https://www.instagram.com/hidupkerass/">
-                 <img src="/assets/icon/akar-icons_instagram-fill.png" alt="" width="33" height="33">
-            </a>
-        </div>
-        <div class="icon-3">
-            <a href="https://www.linkedin.com/in/muhammad-magistra-apta-paramarta-1555a2219/">
-                <img src="/assets/icon/Vector.png" alt="" width="33" height="33">
-            </a>
-        </div>
-        
+        <h3>Dicoding. Belajar Dasar Pemrograman</h3>
     </footer>
+
+    <script src="/assets/script.js"></script>
 </body>
 </html>
